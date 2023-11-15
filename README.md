@@ -1,2 +1,2 @@
 # parent
-Springboot项目maven多模块拆分项目代码
+Multi-module Java 8 application in Java 8
