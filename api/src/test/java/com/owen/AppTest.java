@@ -28,11 +28,8 @@ public class AppTest
         return new TestSuite( AppTest.class );
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
+    public void testAppWithJava17Compatible1p()
     {
-        assertTrue( true );
+        assertEquals(App.call1pDependency(), "Hello, World!");
     }
 }

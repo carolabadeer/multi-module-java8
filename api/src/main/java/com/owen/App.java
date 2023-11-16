@@ -7,8 +7,10 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "This class contains an injected 1p dependency that is compatible with java 17" );
+        System.out.println(call1pDependency());
+    }
 
-        String reversed = MyUtility.doNothing("Hello, World!");
-        System.out.println(reversed);
+    public static String call1pDependency() {
+        return MyUtility.doNothing("Hello, World!");
     }
 }
