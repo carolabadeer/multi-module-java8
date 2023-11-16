@@ -7,7 +7,7 @@ public class App
         System.out.println(call1pDependency());
     }
 
-    public static int call1pDependency() {
+    public static String call1pDependency() {
         return com.mycompany.app.App.Encode();
     }
 }
