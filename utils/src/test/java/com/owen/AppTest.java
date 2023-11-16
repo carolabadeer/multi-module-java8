@@ -28,11 +28,8 @@ public class AppTest
         return new TestSuite( AppTest.class );
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
+    public void test1pDependencyNotCompatibleWithJava18()
     {
-        assertTrue( true );
+        assertEquals(App.call1pDependency(), "SGVsbG8sIFdvcmxkIQ==");
     }
 }
